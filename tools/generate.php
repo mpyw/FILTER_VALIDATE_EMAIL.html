@@ -16,8 +16,8 @@ function generateAttribute(bool $unicode, string $version = 'latest'): string
 }
 
 echo "# HTML Pattern Attribute (Unicode)\n";
-echo generateAttribute(true, $_SERVER['argv'][1] ?? 'latest') . "\n";
+echo '"' . generateAttribute(true, $_SERVER['argv'][1] ?? 'latest') . '"' . "\n";
 echo "\n";
-echo "# HTML Pattern Attribute (ascii)\n";
-echo generateAttribute(false, $_SERVER['argv'][1] ?? 'latest') . "\n";
+echo "# HTML Pattern Attribute (Ascii)\n";
+echo '"' . generateAttribute(false, $_SERVER['argv'][1] ?? 'latest') . '"' . "\n";
 echo "\n";
