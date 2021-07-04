@@ -4,7 +4,7 @@ HTML Pattern Attribute Validation compatible with PHP's `filter_var()` and [`mpy
 
 - Demo: **[https://mpyw.github.io/FILTER_VALIDATE_EMAIL.html/](https://mpyw.github.io/FILTER_VALIDATE_EMAIL.html/)**
 
-## Current Version
+## Currently Version
 
 ```ruby
 # ↓ It works! 😂
