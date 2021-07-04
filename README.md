@@ -48,4 +48,4 @@ HTML Pattern Attribute Validation compatible with PHP's `filter_var()` and [`mpy
 
 ## How to Generate Pattern Attribute
 
-Run [`generate.php`](./generate.php).
+Run [`tools/generate.php`](tools/generate.php).
