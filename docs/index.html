@@ -19,6 +19,7 @@
                 type="text"
                 maxlength="320"
             >
+            <span></span>
         </label>
         <input type="submit">
     </form>
@@ -34,6 +35,7 @@
                 type="text"
                 maxlength="192"
             >
+            <span></span>
         </label>
         <input type="submit">
     </form>
@@ -47,7 +49,15 @@
     .validation:valid {
         border-color: green;
     }
+    .validation:valid + span::after {
+        content: '✔';
+        color: green;
+    }
     .validation:invalid {
         border-color: red;
+    }
+    .validation:invalid + span::after {
+        content: '✗';
+        color: red;
     }
 </style>
