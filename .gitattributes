@@ -1,2 +1,2 @@
 generate.php linguist-vendored
-docs/**/*.html linguist-detectable=true
+*.html linguist-detectable=true
