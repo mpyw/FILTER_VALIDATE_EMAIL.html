@@ -1,2 +1,3 @@
 generate.php linguist-vendored
 *.html linguist-detectable=true
+*.html linguist-language=html
